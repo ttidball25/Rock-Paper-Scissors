@@ -1,0 +1,22 @@
+body {
+    background-color: darkblue;
+    color:wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#paper, 
+#rock,
+#scissors {
+    height: auto;
+    width: 100px;
+}
